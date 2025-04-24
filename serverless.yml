@@ -15,7 +15,7 @@ functions:
       - httpApi:
           method: any
           path: /{proxy+}
-    environment:
+   # environment:
       #DATABASE: ''
       #USERNAME: ''
       #PASSWORD: Don't set this if you'll be commiting the file, instead use the AWS console or another method like Parameter Store
